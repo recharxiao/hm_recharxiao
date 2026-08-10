@@ -1,0 +1,19 @@
+[project]
+name = "ai-girlfried"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "base>=0.0.0",
+    "datetime>=6.0",
+    "fastapi>=0.141.1",
+    "openai>=2.53.0",
+    "pydantic>=2.13.4",
+    "pymysql>=1.2.0",
+    "router>=0.1",
+    "sqlalchemy>=2.0.51",
+    "uvicorn>=0.52.1",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
